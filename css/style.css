@@ -5,12 +5,62 @@
     box-sizing: border-box;
 }
 /* COMMON */
+
+.container1 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container2{
+    max-width:800px;
+    margin: 0 auto;
+}
 /* Typography */
 body {
-    background-color: rgb(184, 187, 178);
+    background-color: rgb(255, 255, 255);
 }
 /* Utlities */
+
 /* Layout */
 /* HEADER */
+header {
+    background-color: lightblue;
+}
+
+.menu {
+    background: orange;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.menu > div {
+    width: 100%;
+}
+
+
 /* MAIN */
+main {
+    background:rgb(31, 31, 125);
+    padding:80px;
+}
+.inicio {
+    background: pink;
+    padding:90px;
+    display:flex;
+    justify-content:center;
+    border:1px solid;
+}
+.inicio > div {
+    width:100%;
+}
+
+
+
 /* FOOTER */
+
+
+.red {
+    padding: 20px;
+    background-color: red;
+}
