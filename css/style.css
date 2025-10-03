@@ -24,6 +24,7 @@ body {
 /* HEADER */
 header {
     background-color: lightblue;
+    padding:10px;
 }
 
 .menu {
@@ -42,18 +43,22 @@ header {
 /* MAIN */
 main {
     background:rgb(31, 31, 125);
-    padding:80px;
+    padding:20px; 
+    min-height:100px;   
 }
-.inicio {
-    background: pink;
-    padding:90px;
+.inizio {
+    background: rgb(231, 146, 221);
+    padding:80px;
+    margin: 0 auto;
     display:flex;
     justify-content:center;
-    border:1px solid;
+    border:1px solid;  
+    min-height:100px;
+    width: 70%;   
 }
-.inicio > div {
-    width:100%;
-}
+
+
+
 
 
 
