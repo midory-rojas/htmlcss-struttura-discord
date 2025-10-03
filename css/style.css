@@ -10,10 +10,7 @@
     max-width: 800px;
     margin: 0 auto;
 }
-.container2{
-    max-width:800px;
-    margin: 0 auto;
-}
+
 /* Typography */
 body {
     background-color: rgb(255, 255, 255);
@@ -41,31 +38,22 @@ header {
 
 
 /* MAIN */
-main {
-    background:rgb(31, 31, 125);
-    padding:20px; 
-    min-height:100px;   
-}
-.inizio {
-    background: rgb(231, 146, 221);
-    padding:80px;
-    margin: 0 auto;
-    display:flex;
-    justify-content:center;
-    border:1px solid;  
-    min-height:100px;
-    width: 70%;   
-}
 
+.inizio{
+    background-color:rgb(13, 13, 65);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 300px;
+}
+.hero .viola {
+    background-color:rgb(243, 164, 243);
+    width:60%;
+    height:150px;
+}
 
 
 
 
 
 /* FOOTER */
-
-
-.red {
-    padding: 20px;
-    background-color: red;
-}
