@@ -38,22 +38,78 @@ header {
 
 
 /* MAIN */
-
+/* Container 2 */
 .inizio{
     background-color:rgb(13, 13, 65);
     display:flex;
     justify-content: center;
     align-items:center;
     height: 300px;
+    padding: 20px;
 }
-.hero .viola {
+.inizio .cielo {
     background-color:rgb(243, 164, 243);
     width:60%;
-    height:150px;
+    height:200px;
+    border: 1px solid;
+}
+/* Container 3,4,5 */
+.colonne {
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    background-color: white;
+}
+.colonne .box {
+    border: 1px solid;
+}
+.blue {
+    background-color: rgb(79, 133, 190);
+    width:70%;
+    height:200px;
+}
+.pink {
+    background-color: rgb(239, 179, 189);
+    width:30%;
+    height:200px;
+}
+/* Container 6 */
+.sei {
+    background-color:rgb(192, 187, 187);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 500px;
+    padding: 20px;
+}
+.sei .green {
+    background-color:rgb(164, 241, 164);
+    width:60%;
+    height:400px;
+    border: 1px solid;
+}
+/* Container 7 */
+.sette {
+    background-color: rgb(31, 29, 29);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 500px;
+    padding:50px;
 }
 
+.sette .pink{
+    background-color: rgb(231, 140, 155);
+    width:50%;
+    height:400px;
 
-
-
-
+}
+.sette .acqua {
+    background-color:rgb(65, 184, 135);
+    width:50%;
+    height:400px;
+    border: 1px solid;
+    border-color: white;
+    max-width: 800px;
+}
 /* FOOTER */
